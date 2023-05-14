@@ -1,0 +1,60 @@
+#image1 {
+    height: 500px;
+    width: auto;
+}
+#image2 {
+    height: 500px;
+    width: auto;
+}
+#image3 {
+    height: 500px;
+    width: auto;
+}
+
+#pop_up{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    z-index: 99999;
+    display: none;
+}
+#cross{
+    height: 60px;
+    width: auto;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+#cross_img{
+    height: 60px;
+    width: auto;
+}
+
+  
+#left{
+    height: 100px;
+    width: auto;
+    position: absolute;
+    top: 50vh;
+    left: 50px;
+    cursor: pointer;
+}
+#right{
+    height: 100px;
+    width: auto;
+    position: absolute;
+    top: 50vh;
+    right: 50px;
+    cursor: pointer;
+}
+#main_img{
+   max-width: 90vh;
+   max-height: 90%;
+}
